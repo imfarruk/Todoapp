@@ -1,9 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "../App.css";
 
-const todoOne = "/images/todo.png";
-  
-
 // to get the data from local storage
 const getLocalItems = () => {
   let list = localStorage.getItem("lists");
@@ -76,7 +73,12 @@ const Todo = () => {
       <div className="main-div">
         <div className="child">
           <figure>
-            <img src={todoOne} alt="images" width="150px" />
+            <img
+              src="https://ps.w.org/wp-todo/assets/icon-256x256.png?rev=1845912"
+              alt="imageshai"
+              width="100px"
+              height="100px"
+            />
             <p className="textStyle">Write your Todo List</p>
           </figure>
           <div className="addItems">
