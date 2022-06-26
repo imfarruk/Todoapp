@@ -76,7 +76,7 @@ const Todo = () => {
             <img
               src="https://ps.w.org/wp-todo/assets/icon-256x256.png?rev=1845912"
               alt="imageshai"
-              width="100px"
+              width="80px"
               height="100px"
             />
             <p className="textStyle">Write your Todo List</p>
